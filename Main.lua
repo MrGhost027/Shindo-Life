@@ -58,7 +58,7 @@ TextButton_2.TextSize = 40.000
 TextButton_2.TextWrapped = true
 
 function spins()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/reavscripts/sl2-hub/main/spins"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrGhost027/Shindo-Life/main/Spin.lua"))()
     for i,v in pairs(player.PlayerGui:GetChildren()) do
         if v.Name == "ScreenGui" then
             v:Destroy()
